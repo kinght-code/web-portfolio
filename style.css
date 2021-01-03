@@ -15,10 +15,10 @@ padding: 0%;
 }
 .half-widht > img {
     width: 100%;
-    
+   
 }
 .half-widht {
     float: left;
     width: 40%;
-    padding: %;
+    padding: 5%;
 }

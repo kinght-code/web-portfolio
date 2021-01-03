@@ -1,13 +1,24 @@
 body {
     font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .main-hadding {
     font-size: 50px;
 }
 h1{
-
+padding: 0%;
     color: crimson;
 }
 .name-hilight > #name {
     color: orange;
+}
+.half-widht > img {
+    width: 100%;
+    
+}
+.half-widht {
+    float: left;
+    width: 40%;
+    padding: 5%;
 }

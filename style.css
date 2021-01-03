@@ -1,0 +1,13 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.main-hadding {
+    font-size: 50px;
+}
+h1{
+
+    color: crimson;
+}
+.name-hilight > #name {
+    color: orange;
+}

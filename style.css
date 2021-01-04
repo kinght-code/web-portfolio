@@ -5,6 +5,7 @@ body {
 }
 .top-background {
     background-image: (url"/images/top-banner.png");
+    background-repeat: no-repeat;
 }
 section {
     width: 100%;

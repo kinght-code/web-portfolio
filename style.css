@@ -3,7 +3,11 @@ body {
     margin: 0;
     padding: 0;
 }
+.top-background {
+    background-image: (url"/top-banner.png");
+}
 section {
+    width: 100%;
     height: 500px;
     padding-bottom: 150px;
 }

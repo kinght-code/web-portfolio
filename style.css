@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 .top-background {
-    background-image: (url"/top-banner.png");
+    background-image: (url"images/top-banner.png");
 }
 section {
     width: 100%;

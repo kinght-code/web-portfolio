@@ -67,7 +67,7 @@ div {
     background-position: right;
 }
 .experiences-area {
-    background-image: url(images/exp-bg.png);
+    background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }

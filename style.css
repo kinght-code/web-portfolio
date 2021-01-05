@@ -41,13 +41,13 @@ h1{
 .half-width {
     float: left;
     width: 40%;
-    padding: 5%;
+    padding: 2%;
 }
 .half-width-E{
     float: left;
     width: 40%;
     height: 100%;
-    padding: 4.5%;
+    padding: 2%;
 }
 .link-button {
     text-decoration: none;

@@ -6,6 +6,8 @@ body {
 .top-background {
     background-image: url("https://www.teahub.io/photos/full/8-83642_top-78-red-abstract-background-hd-background-spot.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 section {
     width: 100%;

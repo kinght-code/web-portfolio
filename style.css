@@ -22,6 +22,9 @@ h1{
     color: crimson;
     font-size: 50px;
 }
+p {
+    color: darkblue;
+}
 /* h2 {
     font-size: 40px;
 } */
@@ -58,8 +61,7 @@ h1{
 }
 
 div {
-    display: block;
-    
+    display: block;    
 }
 .secound-section {
     background: url("/images/dream-bg.png");
@@ -88,3 +90,7 @@ div {
     padding: 4%;
     margin-left: 50px;
 }
+@media only screen and (max-width:800px) {
+    .menu, .main, .right {
+      width:100%;
+    }

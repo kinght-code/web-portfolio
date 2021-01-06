@@ -40,6 +40,7 @@ p {
 }
 .orange-hilight {
     color: orange;
+
 }
 img {
     width: 100%;
@@ -88,6 +89,7 @@ div {
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
     box-shadow: 5px 7px 40px grey;
+    padding-bottom: 50%;
 }
 #baby {
     border-left: 7px solid;
@@ -95,4 +97,8 @@ div {
     border-image-slice: 1;
     box-shadow: 5px 7px 40px grey;
     margin-left: 50px;
+    padding-bottom: 50%;
+}
+footer {
+    clear: both;
 }

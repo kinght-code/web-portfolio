@@ -29,9 +29,6 @@ p {
 .p {
     color: rgb(255, 0, 212);
 }
-/* h2 {
-    font-size: 40px;
-} */
 .text {
     text-align: center;
 }
@@ -46,10 +43,14 @@ img {
     width: 100%;
     height: auto;
 }
+#jpg {
+    padding-top: 70%;
+}
 .half-width {
     float: left;
     width: 40%;
-    padding: 2%;
+    padding: 0%;
+    margin: 5%;
 }
 .half-width-E{
     float: left;

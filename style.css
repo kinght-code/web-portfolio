@@ -199,3 +199,48 @@ div {
 footer {
     clear: both;
 }
+
+
+
+
+
+element {
+}
+.tw-menu-btn:not(.tw-menu-btn-disabled):hover {
+    color: rgba(0,0,0,.7);
+}
+html:not(.zAoYTe) .hide-focus-ring {
+    outline: 0;
+}
+.tw-menu-btn {
+    cursor: pointer;
+    display: inline-block;
+    height: 48px;
+    color: rgba(0,0,0,.54);
+    overflow: hidden;
+    width: 48px;
+}
+#tw-tmenu {
+    white-space: nowrap;
+}
+.tw-menu {
+    line-height: normal;
+}
+#tw-source, #tw-target, .g9WsWb {
+    font-size: 0;
+    text-align: initial;
+}
+.eqAnXb {
+    font-size: medium;
+    font-weight: normal;
+}
+body {
+    color: #202124;
+}
+body, h1 {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+html {
+    font-family: arial,sans-serif;
+}

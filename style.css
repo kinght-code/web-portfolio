@@ -81,6 +81,11 @@ section {
     padding-bottom: 150px;
 }
 
+
+#sound {
+    padding: 1px;
+}
+
 .main-hadding {
     font-size: 50px;
 }

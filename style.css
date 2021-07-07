@@ -1,4 +1,4 @@
-body {
+blogody {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
@@ -59,7 +59,7 @@ body {
 footer {
     clear: both;
     text-align: center;
-    color: rgb( green);
+    color: rgb( rgb(0, 255, 0));
 }
 
 
@@ -91,10 +91,6 @@ h1 {
     font-size: 50px;
 }
 
-p {
-    color: darkblue;
-    font-size: 20px;
-}
 
 .p {
     color: rgb(255, 0, 212);
@@ -132,12 +128,7 @@ img {
     margin: 5%;
 }
 
-/* .half-width-E {
-    float: left;
-    width: 40%;
-    height: 80%;
-    margin-left: 4%;
-} */
+
 
 .link-button {
     text-decoration: none;
@@ -197,19 +188,25 @@ div {
     width: 560;
     height: 315;
     
-} 
+}  */
+/* 
 
-#ifram{
-    width: 560;
-    height: 315;
-} */
+.ifram{
+    padding: 40%;
+
+margin: 50px;
+
+    position: relative;
+}  */
 
 footer {
     clear: both;
     text-align: center;
-    color: rgb(255, 0, 212);
+    color: rgb(38, 255, 0)
 }
 
 
 
-
+.blog {
+    color:rgb(0, 0, 255);o
+}

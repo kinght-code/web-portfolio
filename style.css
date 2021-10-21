@@ -187,20 +187,6 @@ div {
     margin-left: 7%;
 }
 
-/* #video{
-    width: 560;
-    height: 315;
-    
-}  */
-/* 
-
-.ifram{
-    padding: 40%;
-
-margin: 50px;
-
-    position: relative;
-}  */
 
 footer {
     clear: both;
@@ -247,25 +233,12 @@ footer {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    /* background-color: rgb(250, 246, 246); */
     color: rgb(65, 228, 33);
     padding: 10px 15px;
     border: none;
     border-radius: 40%;
     position: fixed;
-    /* position: absolute; */
-    display: block;
-    /* overflow: hidden; */
-    var prevScrollpos = window.pageYOffset;
-     window.onscroll = function() {
-     var currentScrollPos = window.pageYOffset;
-     if (prevScrollpos > currentScrollPos) {
-     document.getElementById("openbtn").style.top = "0";
-     } else {
-    document.getElementById("openbtn").style.top = "-50px";
-    }
-    prevScrollpos = currentScrollPos;
-    } 
+    display: block;    
 }
   
 .openbtn:hover {

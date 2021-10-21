@@ -8,8 +8,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="top-background">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#services"><i class="fa fa-fw fa-wrench"></i> Projects</a>
+        <a href="#clients"><i class="fa fa-fw fa-user"></i> About</a>
+        <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+      </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
 
 
 <section>
@@ -62,41 +86,33 @@
     <div>
         <video width="560" height="315" position= "relative"  controls src="/audio-video/Marshmello Summer Official Music Video with Lele Pons.mp4"></video>
     </div>
-    <!-- <section>
-    <div>
-    <iframe src="https://www.youtube.com/embed/k-TBmwz6GB4?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="560" height="315"></iframe>
-    </div>
-    <div>
-        <iframe src="https://www.youtube.com/embed/NIJdmepYd2Q?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="560" height="315" ></iframe>
-    </div>
-    </section> -->
 </section>
-    <!-- <section class="contner"> -->
-        <div>
-                <ul>
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
-                </ul>
-                <h1>Hello everyone</h1>
-            <article class="blog">
-                <h3>Romantic blog-1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo nemo aperiam aut dolorem recusandae ratione magnam deserunt dolor culpa, sunt accusantium reiciendis dicta dolores nihil. Temporibus facilis ipsam quis beatae corporis vero. Optio deserunt, architecto voluptas asperiores at nulla.</p>
-            </article>
-            <article class="blog">
-                <h3>Romantic blog-2</h3>
-                <p>Itaque, est? Corrupti, cupiditate quas. Error, tenetur vero! Omnis voluptatem, maiores odit, eveniet provident tempore praesentium ad nostrum fugiat sint mollitia corrupti itaque maxime inventore commodi id adipisci quis aspernatur dolores! Optio veritatis sit perspiciatis voluptatibus soluta eligendi, doloribus iusto.</p>
-            </article>
-             <article class="blog">
-                <h3>Romantic blog-3</h3>
-                <p>Provident odit, veritatis molestias eius, sequi eligendi repudiandae qui iste minima fuga animi non voluptatibus! Vitae ut hic aliquid fuga recusandae nisi consequuntur quibusdam, a ipsum, temporibus accusantium quia quas sed corporis nobis optio quisquam nesciunt voluptates rerum repellendus exercitationem.</p>
-            </article>
-    
-           
-
-
+<div>
+        <ul>
+            <li><a href="">link</a></li>
+            <li><a href="">link</a></li>
+            <li><a href="">link</a></li>
+        </ul>
+        <h1>Hello everyone</h1>
+    <article class="blog">
+        <h3>Romantic blog-1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo nemo aperiam aut dolorem recusandae ratione magnam deserunt dolor culpa, sunaccusantium reiciendis dicta dolores nihil. Temporibus facilis ipsam quis beatae corporis vero. Optio deserunt, architecto voluptas asperiores anulla.</p>
+    </article>
+    <article class="blog">
+        <h3>Romantic blog-2</h3>
+        <p>Itaque, est? Corrupti, cupiditate quas. Error, tenetur vero! Omnis voluptatem, maiores odit, eveniet provident tempore praesentium ad nostrufugiat sint mollitia corrupti itaque maxime inventore commodi id adipisci quis aspernatur dolores! Optio veritatis sit perspiciatis voluptatibusoluta eligendi, doloribus iusto.</p>
+    </article>
+     <article class="blog">
+        <h3>Romantic blog-3</h3>
+        <p>Provident odit, veritatis molestias eius, sequi eligendi repudiandae qui iste minima fuga animi non voluptatibus! Vitae ut hic aliquid fugrecusandae nisi consequuntur quibusdam, a ipsum, temporibus accusantium quia quas sed corporis nobis optio quisquam nesciunt voluptates rerurepellendus exercitationem.</p>
+    </article>
+</div>
+  <div class="icon">
+  <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/tweeter?lang=en" class="fa fa-twitter"></a>
+  <a href="https://www.google.com" class="fa fa-google"></a>
+  <a href="https://www.linkedin.com/in/md-ahnaf-shahariar-b3b064210" class="fa fa-linkedin"></a>
+</div>
 </body>
-<footer>
-    © Ahnaf Shahariar 2021, Programming kinght-code initiative.
-    </footer>
+<footer>© Ahnaf Shahariar 2021, Programming kinght-code initiative.</footer>
 </html>

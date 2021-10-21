@@ -17,19 +17,22 @@ blogody {
     padding-bottom: 150px;
 }
 
-.experiences-area {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+
+    .experiences-area {
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
     clear: both;
     padding: 0%;
-}
+    }
 
     video {
     position: relative;
     width: 100%;
     height: auto;
-}
+    }
 
     #full {
     border-left: 7px solid;
@@ -41,7 +44,7 @@ blogody {
     height: 166%;
     margin-left: 4%;
     overflow: auto;
-}
+    }
 
     #baby {
     border-left: 7px solid;
@@ -54,20 +57,15 @@ blogody {
     height: 166%;
     margin-left: 7%;
     overflow: auto;
-}
+    }
 
-footer {
+    footer {
     clear: both;
     text-align: center;
     color: rgb( rgb(0, 255, 0));
+    }
+    
 }
-
-
-
-}
-
-
-
 .top-background {
     background-image: url("https://www.teahub.io/photos/full/8-83642_top-78-red-abstract-background-hd-background-spot.jpg");
     background-repeat: no-repeat;
@@ -210,8 +208,107 @@ footer {
     color: rgb(38, 255, 0)
 }
 
-
-
 .blog {
     color:rgb(0, 0, 255);o
 }
+/* sidebar */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+}
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+} 
+.sidebar a:hover {
+    color: #c21212;
+} 
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    /* background-color: rgb(250, 246, 246); */
+    color: rgb(65, 228, 33);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 40%;
+    position: fixed;
+    /* position: absolute; */
+    display: block;
+    /* overflow: hidden; */
+    var prevScrollpos = window.pageYOffset;
+     window.onscroll = function() {
+     var currentScrollPos = window.pageYOffset;
+     if (prevScrollpos > currentScrollPos) {
+     document.getElementById("openbtn").style.top = "0";
+     } else {
+    document.getElementById("openbtn").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+    } 
+}
+  
+.openbtn:hover {
+    background-color: rgb(71, 22, 206);
+}
+  
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 40%;
+}
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+

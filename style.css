@@ -245,10 +245,10 @@ footer {
 #main {
     transition: margin-left .5s;
     padding: 90px;
-    position: fixed;
+    /* position: fixed; */
     display: block;
     transition: top 0.3s;
-
+    float: right;
 }
  
   .fa {
